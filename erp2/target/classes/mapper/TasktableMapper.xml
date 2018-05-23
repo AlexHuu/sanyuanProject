@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.uestc.ssmdemo.dao.TasktableMapper">
+  <resultMap id="BaseResultMap" type="edu.uestc.ssmdemo.entity.Tasktable">
+    <id column="taskNo" jdbcType="VARCHAR" property="taskno" />
+    <result column="orderNo" jdbcType="VARCHAR" property="orderno" />
+    <result column="workblankNo" jdbcType="VARCHAR" property="workblankno" />
+    <result column="dateOfProduce" jdbcType="DATE" property="dateofproduce" />
+    <result column="colorName" jdbcType="VARCHAR" property="colorname" />
+    <result column="colorNo" jdbcType="VARCHAR" property="colorno" />
+    <result column="deadLine" jdbcType="VARCHAR" property="deadline" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="weightPerCloth" jdbcType="VARCHAR" property="weightpercloth" />
+    <result column="mouse" jdbcType="VARCHAR" property="mouse" />
+    <result column="countOfClothOfTask" jdbcType="VARCHAR" property="countofclothoftask" />
+    <result column="weightOfTask" jdbcType="VARCHAR" property="weightoftask" />
+    <result column="weightPerDoor" jdbcType="VARCHAR" property="weightperdoor" />
+    <result column="dyeType" jdbcType="VARCHAR" property="dyetype" />
+    <result column="lightSource" jdbcType="VARCHAR" property="lightsource" />
+    <result column="LightFace" jdbcType="VARCHAR" property="lightface" />
+    <result column="PH" jdbcType="DOUBLE" property="ph" />
+    <result column="deoil" jdbcType="VARCHAR" property="deoil" />
+    <result column="fixation" jdbcType="VARCHAR" property="fixation" />
+    <result column="polish" jdbcType="VARCHAR" property="polish" />
+    <result column="aberration" jdbcType="VARCHAR" property="aberration" />
+    <result column="detection" jdbcType="VARCHAR" property="detection" />
+    <result column="fastness" jdbcType="VARCHAR" property="fastness" />
+    <result column="application" jdbcType="VARCHAR" property="application" />
+    <result column="slice" jdbcType="VARCHAR" property="slice" />
+    <result column="function" jdbcType="VARCHAR" property="function" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="process" jdbcType="VARCHAR" property="process" />
+    <result column="curState" jdbcType="VARCHAR" property="curstate" />
+    <result column="nextState" jdbcType="VARCHAR" property="nextstate" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    taskNo, orderNo, workblankNo, dateOfProduce, colorName, colorNo, deadLine, type, 
+    weightPerCloth, mouse, countOfClothOfTask, weightOfTask, weightPerDoor, dyeType, 
+    lightSource, LightFace, PH, deoil, fixation, polish, aberration, detection, fastness, 
+    application, slice, function, remark, process, curState, nextState
+  </sql>
+  <select id="selectByExample" parameterType="edu.uestc.ssmdemo.entity.TasktableExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from tasktable
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tasktable
+    where taskNo = #{taskno,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from tasktable
+    where taskNo = #{taskno,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="edu.uestc.ssmdemo.entity.TasktableExample">
+    delete from tasktable
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="edu.uestc.ssmdemo.entity.Tasktable">
+    insert into tasktable (taskNo, orderNo, workblankNo, 
+      dateOfProduce, colorName, colorNo, 
+      deadLine, type, weightPerCloth, 
+      mouse, countOfClothOfTask, weightOfTask, 
+      weightPerDoor, dyeType, lightSource, 
+      LightFace, PH, deoil, 
+      fixation, polish, aberration, 
+      detection, fastness, application, 
+      slice, function, remark, 
+      process, curState, nextState
+      )
+    values (#{taskno,jdbcType=VARCHAR}, #{orderno,jdbcType=VARCHAR}, #{workblankno,jdbcType=VARCHAR}, 
+      #{dateofproduce,jdbcType=DATE}, #{colorname,jdbcType=VARCHAR}, #{colorno,jdbcType=VARCHAR}, 
+      #{deadline,jdbcType=VARCHAR}, #{type,jdbcType=VARCHAR}, #{weightpercloth,jdbcType=VARCHAR}, 
+      #{mouse,jdbcType=VARCHAR}, #{countofclothoftask,jdbcType=VARCHAR}, #{weightoftask,jdbcType=VARCHAR}, 
+      #{weightperdoor,jdbcType=VARCHAR}, #{dyetype,jdbcType=VARCHAR}, #{lightsource,jdbcType=VARCHAR}, 
+      #{lightface,jdbcType=VARCHAR}, #{ph,jdbcType=DOUBLE}, #{deoil,jdbcType=VARCHAR}, 
+      #{fixation,jdbcType=VARCHAR}, #{polish,jdbcType=VARCHAR}, #{aberration,jdbcType=VARCHAR}, 
+      #{detection,jdbcType=VARCHAR}, #{fastness,jdbcType=VARCHAR}, #{application,jdbcType=VARCHAR}, 
+      #{slice,jdbcType=VARCHAR}, #{function,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, 
+      #{process,jdbcType=VARCHAR}, #{curstate,jdbcType=VARCHAR}, #{nextstate,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="edu.uestc.ssmdemo.entity.Tasktable">
+    insert into tasktable
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="taskno != null">
+        taskNo,
+      </if>
+      <if test="orderno != null">
+        orderNo,
+      </if>
+      <if test="workblankno != null">
+        workblankNo,
+      </if>
+      <if test="dateofproduce != null">
+        dateOfProduce,
+      </if>
+      <if test="colorname != null">
+        colorName,
+      </if>
+      <if test="colorno != null">
+        colorNo,
+      </if>
+      <if test="deadline != null">
+        deadLine,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="weightpercloth != null">
+        weightPerCloth,
+      </if>
+      <if test="mouse != null">
+        mouse,
+      </if>
+      <if test="countofclothoftask != null">
+        countOfClothOfTask,
+      </if>
+      <if test="weightoftask != null">
+        weightOfTask,
+      </if>
+      <if test="weightperdoor != null">
+        weightPerDoor,
+      </if>
+      <if test="dyetype != null">
+        dyeType,
+      </if>
+      <if test="lightsource != null">
+        lightSource,
+      </if>
+      <if test="lightface != null">
+        LightFace,
+      </if>
+      <if test="ph != null">
+        PH,
+      </if>
+      <if test="deoil != null">
+        deoil,
+      </if>
+      <if test="fixation != null">
+        fixation,
+      </if>
+      <if test="polish != null">
+        polish,
+      </if>
+      <if test="aberration != null">
+        aberration,
+      </if>
+      <if test="detection != null">
+        detection,
+      </if>
+      <if test="fastness != null">
+        fastness,
+      </if>
+      <if test="application != null">
+        application,
+      </if>
+      <if test="slice != null">
+        slice,
+      </if>
+      <if test="function != null">
+        function,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+      <if test="process != null">
+        process,
+      </if>
+      <if test="curstate != null">
+        curState,
+      </if>
+      <if test="nextstate != null">
+        nextState,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="taskno != null">
+        #{taskno,jdbcType=VARCHAR},
+      </if>
+      <if test="orderno != null">
+        #{orderno,jdbcType=VARCHAR},
+      </if>
+      <if test="workblankno != null">
+        #{workblankno,jdbcType=VARCHAR},
+      </if>
+      <if test="dateofproduce != null">
+        #{dateofproduce,jdbcType=DATE},
+      </if>
+      <if test="colorname != null">
+        #{colorname,jdbcType=VARCHAR},
+      </if>
+      <if test="colorno != null">
+        #{colorno,jdbcType=VARCHAR},
+      </if>
+      <if test="deadline != null">
+        #{deadline,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="weightpercloth != null">
+        #{weightpercloth,jdbcType=VARCHAR},
+      </if>
+      <if test="mouse != null">
+        #{mouse,jdbcType=VARCHAR},
+      </if>
+      <if test="countofclothoftask != null">
+        #{countofclothoftask,jdbcType=VARCHAR},
+      </if>
+      <if test="weightoftask != null">
+        #{weightoftask,jdbcType=VARCHAR},
+      </if>
+      <if test="weightperdoor != null">
+        #{weightperdoor,jdbcType=VARCHAR},
+      </if>
+      <if test="dyetype != null">
+        #{dyetype,jdbcType=VARCHAR},
+      </if>
+      <if test="lightsource != null">
+        #{lightsource,jdbcType=VARCHAR},
+      </if>
+      <if test="lightface != null">
+        #{lightface,jdbcType=VARCHAR},
+      </if>
+      <if test="ph != null">
+        #{ph,jdbcType=DOUBLE},
+      </if>
+      <if test="deoil != null">
+        #{deoil,jdbcType=VARCHAR},
+      </if>
+      <if test="fixation != null">
+        #{fixation,jdbcType=VARCHAR},
+      </if>
+      <if test="polish != null">
+        #{polish,jdbcType=VARCHAR},
+      </if>
+      <if test="aberration != null">
+        #{aberration,jdbcType=VARCHAR},
+      </if>
+      <if test="detection != null">
+        #{detection,jdbcType=VARCHAR},
+      </if>
+      <if test="fastness != null">
+        #{fastness,jdbcType=VARCHAR},
+      </if>
+      <if test="application != null">
+        #{application,jdbcType=VARCHAR},
+      </if>
+      <if test="slice != null">
+        #{slice,jdbcType=VARCHAR},
+      </if>
+      <if test="function != null">
+        #{function,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="process != null">
+        #{process,jdbcType=VARCHAR},
+      </if>
+      <if test="curstate != null">
+        #{curstate,jdbcType=VARCHAR},
+      </if>
+      <if test="nextstate != null">
+        #{nextstate,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="edu.uestc.ssmdemo.entity.TasktableExample" resultType="java.lang.Long">
+    select count(*) from tasktable
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update tasktable
+    <set>
+      <if test="record.taskno != null">
+        taskNo = #{record.taskno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.orderno != null">
+        orderNo = #{record.orderno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.workblankno != null">
+        workblankNo = #{record.workblankno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.dateofproduce != null">
+        dateOfProduce = #{record.dateofproduce,jdbcType=DATE},
+      </if>
+      <if test="record.colorname != null">
+        colorName = #{record.colorname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.colorno != null">
+        colorNo = #{record.colorno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.deadline != null">
+        deadLine = #{record.deadline,jdbcType=VARCHAR},
+      </if>
+      <if test="record.type != null">
+        type = #{record.type,jdbcType=VARCHAR},
+      </if>
+      <if test="record.weightpercloth != null">
+        weightPerCloth = #{record.weightpercloth,jdbcType=VARCHAR},
+      </if>
+      <if test="record.mouse != null">
+        mouse = #{record.mouse,jdbcType=VARCHAR},
+      </if>
+      <if test="record.countofclothoftask != null">
+        countOfClothOfTask = #{record.countofclothoftask,jdbcType=VARCHAR},
+      </if>
+      <if test="record.weightoftask != null">
+        weightOfTask = #{record.weightoftask,jdbcType=VARCHAR},
+      </if>
+      <if test="record.weightperdoor != null">
+        weightPerDoor = #{record.weightperdoor,jdbcType=VARCHAR},
+      </if>
+      <if test="record.dyetype != null">
+        dyeType = #{record.dyetype,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lightsource != null">
+        lightSource = #{record.lightsource,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lightface != null">
+        LightFace = #{record.lightface,jdbcType=VARCHAR},
+      </if>
+      <if test="record.ph != null">
+        PH = #{record.ph,jdbcType=DOUBLE},
+      </if>
+      <if test="record.deoil != null">
+        deoil = #{record.deoil,jdbcType=VARCHAR},
+      </if>
+      <if test="record.fixation != null">
+        fixation = #{record.fixation,jdbcType=VARCHAR},
+      </if>
+      <if test="record.polish != null">
+        polish = #{record.polish,jdbcType=VARCHAR},
+      </if>
+      <if test="record.aberration != null">
+        aberration = #{record.aberration,jdbcType=VARCHAR},
+      </if>
+      <if test="record.detection != null">
+        detection = #{record.detection,jdbcType=VARCHAR},
+      </if>
+      <if test="record.fastness != null">
+        fastness = #{record.fastness,jdbcType=VARCHAR},
+      </if>
+      <if test="record.application != null">
+        application = #{record.application,jdbcType=VARCHAR},
+      </if>
+      <if test="record.slice != null">
+        slice = #{record.slice,jdbcType=VARCHAR},
+      </if>
+      <if test="record.function != null">
+        function = #{record.function,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remark != null">
+        remark = #{record.remark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.process != null">
+        process = #{record.process,jdbcType=VARCHAR},
+      </if>
+      <if test="record.curstate != null">
+        curState = #{record.curstate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nextstate != null">
+        nextState = #{record.nextstate,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update tasktable
+    set taskNo = #{record.taskno,jdbcType=VARCHAR},
+      orderNo = #{record.orderno,jdbcType=VARCHAR},
+      workblankNo = #{record.workblankno,jdbcType=VARCHAR},
+      dateOfProduce = #{record.dateofproduce,jdbcType=DATE},
+      colorName = #{record.colorname,jdbcType=VARCHAR},
+      colorNo = #{record.colorno,jdbcType=VARCHAR},
+      deadLine = #{record.deadline,jdbcType=VARCHAR},
+      type = #{record.type,jdbcType=VARCHAR},
+      weightPerCloth = #{record.weightpercloth,jdbcType=VARCHAR},
+      mouse = #{record.mouse,jdbcType=VARCHAR},
+      countOfClothOfTask = #{record.countofclothoftask,jdbcType=VARCHAR},
+      weightOfTask = #{record.weightoftask,jdbcType=VARCHAR},
+      weightPerDoor = #{record.weightperdoor,jdbcType=VARCHAR},
+      dyeType = #{record.dyetype,jdbcType=VARCHAR},
+      lightSource = #{record.lightsource,jdbcType=VARCHAR},
+      LightFace = #{record.lightface,jdbcType=VARCHAR},
+      PH = #{record.ph,jdbcType=DOUBLE},
+      deoil = #{record.deoil,jdbcType=VARCHAR},
+      fixation = #{record.fixation,jdbcType=VARCHAR},
+      polish = #{record.polish,jdbcType=VARCHAR},
+      aberration = #{record.aberration,jdbcType=VARCHAR},
+      detection = #{record.detection,jdbcType=VARCHAR},
+      fastness = #{record.fastness,jdbcType=VARCHAR},
+      application = #{record.application,jdbcType=VARCHAR},
+      slice = #{record.slice,jdbcType=VARCHAR},
+      function = #{record.function,jdbcType=VARCHAR},
+      remark = #{record.remark,jdbcType=VARCHAR},
+      process = #{record.process,jdbcType=VARCHAR},
+      curState = #{record.curstate,jdbcType=VARCHAR},
+      nextState = #{record.nextstate,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="edu.uestc.ssmdemo.entity.Tasktable">
+    update tasktable
+    <set>
+      <if test="orderno != null">
+        orderNo = #{orderno,jdbcType=VARCHAR},
+      </if>
+      <if test="workblankno != null">
+        workblankNo = #{workblankno,jdbcType=VARCHAR},
+      </if>
+      <if test="dateofproduce != null">
+        dateOfProduce = #{dateofproduce,jdbcType=DATE},
+      </if>
+      <if test="colorname != null">
+        colorName = #{colorname,jdbcType=VARCHAR},
+      </if>
+      <if test="colorno != null">
+        colorNo = #{colorno,jdbcType=VARCHAR},
+      </if>
+      <if test="deadline != null">
+        deadLine = #{deadline,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="weightpercloth != null">
+        weightPerCloth = #{weightpercloth,jdbcType=VARCHAR},
+      </if>
+      <if test="mouse != null">
+        mouse = #{mouse,jdbcType=VARCHAR},
+      </if>
+      <if test="countofclothoftask != null">
+        countOfClothOfTask = #{countofclothoftask,jdbcType=VARCHAR},
+      </if>
+      <if test="weightoftask != null">
+        weightOfTask = #{weightoftask,jdbcType=VARCHAR},
+      </if>
+      <if test="weightperdoor != null">
+        weightPerDoor = #{weightperdoor,jdbcType=VARCHAR},
+      </if>
+      <if test="dyetype != null">
+        dyeType = #{dyetype,jdbcType=VARCHAR},
+      </if>
+      <if test="lightsource != null">
+        lightSource = #{lightsource,jdbcType=VARCHAR},
+      </if>
+      <if test="lightface != null">
+        LightFace = #{lightface,jdbcType=VARCHAR},
+      </if>
+      <if test="ph != null">
+        PH = #{ph,jdbcType=DOUBLE},
+      </if>
+      <if test="deoil != null">
+        deoil = #{deoil,jdbcType=VARCHAR},
+      </if>
+      <if test="fixation != null">
+        fixation = #{fixation,jdbcType=VARCHAR},
+      </if>
+      <if test="polish != null">
+        polish = #{polish,jdbcType=VARCHAR},
+      </if>
+      <if test="aberration != null">
+        aberration = #{aberration,jdbcType=VARCHAR},
+      </if>
+      <if test="detection != null">
+        detection = #{detection,jdbcType=VARCHAR},
+      </if>
+      <if test="fastness != null">
+        fastness = #{fastness,jdbcType=VARCHAR},
+      </if>
+      <if test="application != null">
+        application = #{application,jdbcType=VARCHAR},
+      </if>
+      <if test="slice != null">
+        slice = #{slice,jdbcType=VARCHAR},
+      </if>
+      <if test="function != null">
+        function = #{function,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="process != null">
+        process = #{process,jdbcType=VARCHAR},
+      </if>
+      <if test="curstate != null">
+        curState = #{curstate,jdbcType=VARCHAR},
+      </if>
+      <if test="nextstate != null">
+        nextState = #{nextstate,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where taskNo = #{taskno,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="edu.uestc.ssmdemo.entity.Tasktable">
+    update tasktable
+    set orderNo = #{orderno,jdbcType=VARCHAR},
+      workblankNo = #{workblankno,jdbcType=VARCHAR},
+      dateOfProduce = #{dateofproduce,jdbcType=DATE},
+      colorName = #{colorname,jdbcType=VARCHAR},
+      colorNo = #{colorno,jdbcType=VARCHAR},
+      deadLine = #{deadline,jdbcType=VARCHAR},
+      type = #{type,jdbcType=VARCHAR},
+      weightPerCloth = #{weightpercloth,jdbcType=VARCHAR},
+      mouse = #{mouse,jdbcType=VARCHAR},
+      countOfClothOfTask = #{countofclothoftask,jdbcType=VARCHAR},
+      weightOfTask = #{weightoftask,jdbcType=VARCHAR},
+      weightPerDoor = #{weightperdoor,jdbcType=VARCHAR},
+      dyeType = #{dyetype,jdbcType=VARCHAR},
+      lightSource = #{lightsource,jdbcType=VARCHAR},
+      LightFace = #{lightface,jdbcType=VARCHAR},
+      PH = #{ph,jdbcType=DOUBLE},
+      deoil = #{deoil,jdbcType=VARCHAR},
+      fixation = #{fixation,jdbcType=VARCHAR},
+      polish = #{polish,jdbcType=VARCHAR},
+      aberration = #{aberration,jdbcType=VARCHAR},
+      detection = #{detection,jdbcType=VARCHAR},
+      fastness = #{fastness,jdbcType=VARCHAR},
+      application = #{application,jdbcType=VARCHAR},
+      slice = #{slice,jdbcType=VARCHAR},
+      function = #{function,jdbcType=VARCHAR},
+      remark = #{remark,jdbcType=VARCHAR},
+      process = #{process,jdbcType=VARCHAR},
+      curState = #{curstate,jdbcType=VARCHAR},
+      nextState = #{nextstate,jdbcType=VARCHAR}
+    where taskNo = #{taskno,jdbcType=VARCHAR}
+  </update>
+</mapper>

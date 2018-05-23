@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.uestc.ssmdemo.dao.OrdertableMapper">
+  <resultMap id="BaseResultMap" type="edu.uestc.ssmdemo.entity.Ordertable">
+    <id column="orderNo" jdbcType="VARCHAR" property="orderno" />
+    <result column="customer" jdbcType="VARCHAR" property="customer" />
+    <result column="date" jdbcType="DATE" property="date" />
+    <result column="countOfCloth" jdbcType="DOUBLE" property="countofcloth" />
+    <result column="weight" jdbcType="VARCHAR" property="weight" />
+    <result column="uncompleted" jdbcType="DOUBLE" property="uncompleted" />
+    <result column="remarkOfType" jdbcType="VARCHAR" property="remarkoftype" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    orderNo, customer, date, countOfCloth, weight, uncompleted, remarkOfType
+  </sql>
+
+  <select id="queryOrderByCustomerNameAndDate" parameterType="edu.uestc.ssmdemo.Model.OrderVo" resultMap="BaseResultMap">
+   SELECT * FROM ordertable
+   <where>
+     <if test="customerName!=null and customerName !=''">
+       and customer=#{customerName}
+     </if>
+     <if test="startDate != null and  startDate != ''">
+       <![CDATA[ and date >= #{startDate}]]>
+     </if>
+     <if test="endDate != null and  endDate != ''">
+       <![CDATA[ and date <= #{endDate}]]>
+     </if>
+   </where>
+
+  </select>
+
+  <select id="selectByExample" parameterType="edu.uestc.ssmdemo.entity.OrdertableExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from ordertable
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from ordertable
+    where orderNo = #{orderno,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from ordertable
+    where orderNo = #{orderno,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="edu.uestc.ssmdemo.entity.OrdertableExample">
+    delete from ordertable
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="edu.uestc.ssmdemo.entity.Ordertable">
+    insert into ordertable (orderNo, customer, date, 
+      countOfCloth, weight, uncompleted, 
+      remarkOfType)
+    values (#{orderno,jdbcType=VARCHAR}, #{customer,jdbcType=VARCHAR}, #{date,jdbcType=DATE}, 
+      #{countofcloth,jdbcType=DOUBLE}, #{weight,jdbcType=VARCHAR}, #{uncompleted,jdbcType=DOUBLE}, 
+      #{remarkoftype,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="edu.uestc.ssmdemo.entity.Ordertable">
+    insert into ordertable
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="orderno != null">
+        orderNo,
+      </if>
+      <if test="customer != null">
+        customer,
+      </if>
+      <if test="date != null">
+        date,
+      </if>
+      <if test="countofcloth != null">
+        countOfCloth,
+      </if>
+      <if test="weight != null">
+        weight,
+      </if>
+      <if test="uncompleted != null">
+        uncompleted,
+      </if>
+      <if test="remarkoftype != null">
+        remarkOfType,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="orderno != null">
+        #{orderno,jdbcType=VARCHAR},
+      </if>
+      <if test="customer != null">
+        #{customer,jdbcType=VARCHAR},
+      </if>
+      <if test="date != null">
+        #{date,jdbcType=DATE},
+      </if>
+      <if test="countofcloth != null">
+        #{countofcloth,jdbcType=DOUBLE},
+      </if>
+      <if test="weight != null">
+        #{weight,jdbcType=VARCHAR},
+      </if>
+      <if test="uncompleted != null">
+        #{uncompleted,jdbcType=DOUBLE},
+      </if>
+      <if test="remarkoftype != null">
+        #{remarkoftype,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="edu.uestc.ssmdemo.entity.OrdertableExample" resultType="java.lang.Long">
+    select count(*) from ordertable
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update ordertable
+    <set>
+      <if test="record.orderno != null">
+        orderNo = #{record.orderno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.customer != null">
+        customer = #{record.customer,jdbcType=VARCHAR},
+      </if>
+      <if test="record.date != null">
+        date = #{record.date,jdbcType=DATE},
+      </if>
+      <if test="record.countofcloth != null">
+        countOfCloth = #{record.countofcloth,jdbcType=DOUBLE},
+      </if>
+      <if test="record.weight != null">
+        weight = #{record.weight,jdbcType=VARCHAR},
+      </if>
+      <if test="record.uncompleted != null">
+        uncompleted = #{record.uncompleted,jdbcType=DOUBLE},
+      </if>
+      <if test="record.remarkoftype != null">
+        remarkOfType = #{record.remarkoftype,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update ordertable
+    set orderNo = #{record.orderno,jdbcType=VARCHAR},
+      customer = #{record.customer,jdbcType=VARCHAR},
+      date = #{record.date,jdbcType=DATE},
+      countOfCloth = #{record.countofcloth,jdbcType=DOUBLE},
+      weight = #{record.weight,jdbcType=VARCHAR},
+      uncompleted = #{record.uncompleted,jdbcType=DOUBLE},
+      remarkOfType = #{record.remarkoftype,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="edu.uestc.ssmdemo.entity.Ordertable">
+    update ordertable
+    <set>
+      <if test="customer != null">
+        customer = #{customer,jdbcType=VARCHAR},
+      </if>
+      <if test="date != null">
+        date = #{date,jdbcType=DATE},
+      </if>
+      <if test="countofcloth != null">
+        countOfCloth = #{countofcloth,jdbcType=DOUBLE},
+      </if>
+      <if test="weight != null">
+        weight = #{weight,jdbcType=VARCHAR},
+      </if>
+      <if test="uncompleted != null">
+        uncompleted = #{uncompleted,jdbcType=DOUBLE},
+      </if>
+      <if test="remarkoftype != null">
+        remarkOfType = #{remarkoftype,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where orderNo = #{orderno,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="edu.uestc.ssmdemo.entity.Ordertable">
+    update ordertable
+    set customer = #{customer,jdbcType=VARCHAR},
+      date = #{date,jdbcType=DATE},
+      countOfCloth = #{countofcloth,jdbcType=DOUBLE},
+      weight = #{weight,jdbcType=VARCHAR},
+      uncompleted = #{uncompleted,jdbcType=DOUBLE},
+      remarkOfType = #{remarkoftype,jdbcType=VARCHAR}
+    where orderNo = #{orderno,jdbcType=VARCHAR}
+  </update>
+</mapper>
