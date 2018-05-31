@@ -2,6 +2,7 @@ package edu.uestc.ssmdemo.Controller;
 
 import edu.uestc.ssmdemo.Convert.ConvertUtil;
 import edu.uestc.ssmdemo.Convert.ProcessConvert;
+import edu.uestc.ssmdemo.Enum.ProcessEnum;
 import edu.uestc.ssmdemo.Model.TasktableVo;
 import edu.uestc.ssmdemo.entity.Ordertable;
 import edu.uestc.ssmdemo.entity.Tasktable;
@@ -64,6 +65,8 @@ public class TaskTableController {
         for (Tasktable task:list
              ) {
             task.setProcess(ProcessConvert.covert(task.getProcess()));
+            String curstate = task.getCurstate();
+            task.setCurstate(ProcessEnum.getName(curstate));
         }
         model.addAttribute("tasks",list);
         model.addAttribute("orderNo",orderNo);
