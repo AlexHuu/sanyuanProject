@@ -3,6 +3,7 @@
   <component name="dataSourceStorageLocal">
     <data-source name="erp@hadoop1" uuid="c0f815ae-c466-4bcd-987c-1628460992b8">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:erp</introspection-schemas>
     </data-source>
   </component>
 </project>
