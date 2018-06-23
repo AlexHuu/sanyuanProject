@@ -1,6 +1,7 @@
 package edu.uestc.ssmdemo.Controller;
 
 
+import edu.uestc.ssmdemo.entity.AdminList;
 import edu.uestc.ssmdemo.entity.Userinfo;
 import edu.uestc.ssmdemo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 @Controller
 @RequestMapping("")
@@ -30,11 +32,13 @@ public class LoginController {
 
     @RequestMapping("login")
     public String Login(Userinfo user, HttpSession httpSession){
-        System.out.println(user.getUserPassword() + "   " + user.getUserPhoneno());
+//        System.out.println(user.getUserPassword() + "   " + user.getUserPhoneno());
         Userinfo u = userService.login(user);
+        List<Userinfo> listadmin = userService.getListAmind();
         if (u != null){
             //System.out.println("u不为空");
             httpSession.setAttribute("user",u);
+            AdminList.setListadmin(listadmin);
             return "redirect:home_page";
         }
         return "forward:loginPage";
