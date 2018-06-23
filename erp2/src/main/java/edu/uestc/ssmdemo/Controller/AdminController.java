@@ -1,6 +1,5 @@
 package edu.uestc.ssmdemo.Controller;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import edu.uestc.ssmdemo.entity.Producerinfo;
 import edu.uestc.ssmdemo.entity.Userinfo;
 import edu.uestc.ssmdemo.service.ProducerService;

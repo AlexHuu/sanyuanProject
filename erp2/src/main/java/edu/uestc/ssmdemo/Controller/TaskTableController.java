@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -71,6 +72,27 @@ public class TaskTableController {
         model.addAttribute("tasks",list);
         model.addAttribute("orderNo",orderNo);
         return "task/listTask";
+    }
+    @RequestMapping(value = "queryTaskByTaskNo")
+    public String listOrder(){
+        return "task/queryTaskByTaskNo";
+    }
+
+    @RequestMapping("getTaskByTaskNo")
+    public String getTaskByTaskNo(Model model,String taskNo) throws Exception{
+        Tasktable taskTable = taskTableService.queryTaskByTaskNo(taskNo);
+        String orderNo=null;
+        if(taskTable != null){
+            taskTable.setProcess(ProcessConvert.covert(taskTable.getProcess()));
+            String curstate = taskTable.getCurstate();
+            taskTable.setCurstate(ProcessEnum.getName(curstate));
+            orderNo = taskTable.getOrderno();
+        }
+        List<Tasktable> list = new ArrayList<Tasktable>();
+        list.add(taskTable);
+        model.addAttribute("tasks",list);
+        model.addAttribute("orderNo",orderNo);
+        return "task/queryTaskByTaskNo";
     }
 
     @RequestMapping("addBlank")

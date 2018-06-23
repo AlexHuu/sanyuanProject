@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Date;
 import java.util.List;
@@ -44,7 +45,20 @@ public class OrderController {
         return "redirect:/queryorder";
     }
     @RequestMapping(value = "/queryorder")
-    public String queryOrderByCustomerNameAndDate(OrderVo orderVo,Model model){
+    public String queryOrderByCustomerNameAndDate(
+            String customerName,String startDate,String endDate, Model model){
+            //@RequestParam("customerName") String customerName,@RequestParam("startDate") java.sql.Date startDate,@RequestParam("endDate")java.sql.Date endDate, Model model){
+        OrderVo orderVo = new OrderVo();
+        orderVo.setCustomerName(customerName);
+        if(startDate==null || "".equals(startDate)){
+            startDate="2018-1-1";
+        }
+        if(endDate == null || "".equals(endDate)){
+            endDate="2090-1-1";
+        }
+        orderVo.setStartDate(java.sql.Date.valueOf(startDate));
+        orderVo.setEndDate(java.sql.Date.valueOf(endDate));
+
         List<Ordertable> ordertables = orderService.queryOrderByCustomerNameAndDate(orderVo);
         model.addAttribute("ordertable",ordertables);
         return "order/listOrder";

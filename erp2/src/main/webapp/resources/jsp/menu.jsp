@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD id=Head1>
@@ -120,6 +121,7 @@ A.active {
 					<TD vAlign=top width=180 bgColor=#ffffff>
 						<TABLE cellSpacing=0 cellPadding=3 width=165 align=center border=0>
 							<TBODY>
+
 								<TR>
 									<TD class=mainMenu onClick="MenuDisplay('table_1');"><SPAN
 										class=span id=table_1Span>＋</SPAN> 订单管理</TD>
@@ -128,21 +130,29 @@ A.active {
 									<TD>
 										<TABLE id=table_1 style="DISPLAY: none" cellSpacing=0
 											cellPadding=2 width=155 align=center border=0>
-											<TBODY>
-												<TR>
-													<TD class=menuSmall><A class=style2 href="../../addOrder" target=main>－ 新增订单</A></TD>
-												</TR>
+                                            <TBODY>
+												<c:if test="${sessionScope.user.hasPrivilege()}">
+                                                <TR>
+                                                    <TD class=menuSmall><A class=style2 href="../../addOrder" target=main>－ 新增订单</A></TD>
+                                                </TR>
+												</c:if>
+
 												<TR> 
 													<TD class=menuSmall><A class=style2 href="../../listOrder" target=main>－ 查询订单</A></TD>
 												</TR>
-												
+												<TR>
+													<TD class=menuSmall><A class=style2 href="../../queryTaskByTaskNo" target=main>－ 查询任务</A></TD>
+												</TR>
+
 											</TBODY>
 										</TABLE>
 									</TD>
 								</TR>
+
 								<TR>
 									<TD background=../images/new_027.jpg height=1></TD>
 								</TR>
+								<c:if test="${sessionScope.user.hasPrivilege()}">
 								<TR>
 									<TD class=mainMenu onClick="MenuDisplay('table_2');"><SPAN
 										class=span id=table_2Span>＋</SPAN> 权限管理</TD>
@@ -172,6 +182,7 @@ A.active {
 								<TR>
 									<TD background=../images/new_027.jpg height=1></TD>
 								</TR>
+							    </c:if>
 							</TBODY>
 						</TABLE>
 					</TD>

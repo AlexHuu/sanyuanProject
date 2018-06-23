@@ -44,7 +44,7 @@
                 <input type="text" name="remarkoftype" placeholder="品种备注">
             </td>
             <td>
-                <input type="submit">
+                <input type="submit" value="添加">
             </td>
         </form>
     </tr>

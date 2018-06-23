@@ -31,7 +31,7 @@
 </div>
 <div style="text-align: center">
     <form action="addTask" method="post" id="form1">
-        <input name="curstate" type="hidden" value="未工作">
+        <input name="curstate" type="hidden" value="-1">
         <table class="tg">
             <tr>
                 <th class="tg-yw4l">毛坯区号：</th>

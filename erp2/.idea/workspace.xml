@@ -6,115 +6,45 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1699c1f2-a036-4b70-90eb-0cfdc579951b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1699c1f2-a036-4b70-90eb-0cfdc579951b" name="Default" comment="修改日期查询bug">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/queryTaskByTaskNo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssmdemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ssmdemo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/TaskTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/TaskTableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Enum/ProcessEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Enum/ProcessEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/addOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/addOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/listOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/listOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/addTask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/addTask.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/jsp/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/jsp/menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssmdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssmdemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/ProductorLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/ProductorLoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/TaskTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Controller/TaskTableController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Convert/BeanRefUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Convert/BeanRefUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Convert/ConvertUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Convert/ConvertUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Convert/ProcessConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Convert/ProcessConvert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Enum/ProcessEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Enum/ProcessEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/OrderTableVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/OrderTableVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/OrderVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/OrderVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/Process.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/Process.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/ProcessVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/ProcessVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/TasktableVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Model/TasktableVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Tool/SerializeObjectTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/Tool/SerializeObjectTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/OrdertableMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/OrdertableMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/ProducerinfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/ProducerinfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/TasktableMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/TasktableMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/UserinfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/dao/UserinfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Ordertable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Ordertable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/OrdertableExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Producerinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Producerinfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Tasktable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Tasktable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/TasktableExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Userinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/Userinfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/entity/UserinfoExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/ProducerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/ProducerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/TaskTableService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/TaskTableService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/ProducerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/ProducerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/TaskTableServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/TaskTableServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/utils/GeneratorSqlMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/utils/GeneratorSqlMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/utils/QRCodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uestc/ssmdemo/utils/QRCodeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/ProductorLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/ProductorLoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/TaskTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Controller/TaskTableController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Convert/BeanRefUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Convert/BeanRefUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Convert/ConvertUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Convert/ConvertUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Convert/ProcessConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Convert/ProcessConvert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Enum/ProcessEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Enum/ProcessEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/OrderTableVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/OrderTableVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/OrderVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/OrderVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/Process.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/Process.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/ProcessVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/ProcessVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/TasktableVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Model/TasktableVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Tool/SerializeObjectTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/Tool/SerializeObjectTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/OrdertableMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/OrdertableMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/ProducerinfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/ProducerinfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/TasktableMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/TasktableMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/UserinfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/dao/UserinfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Ordertable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Ordertable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/OrdertableExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Producerinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Producerinfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/ProducerinfoExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Tasktable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Tasktable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/TasktableExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Userinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/Userinfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/entity/UserinfoExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/ProducerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/ProducerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/TaskTableService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/TaskTableService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/ProducerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/ProducerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/TaskTableServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/TaskTableServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/utils/GeneratorSqlMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/utils/GeneratorSqlMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/utils/QRCodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/edu/uestc/ssmdemo/utils/QRCodeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Empty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/jsp/order/addOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/jsp/order/addOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/jsp/order/listOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/jsp/order/listOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/jsp/task/addTask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/WEB-INF/jsp/task/addTask.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo/resources/jsp/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo/resources/jsp/menu.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,47 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="listTask.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/listTask.jsp">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskTableController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/TaskTableController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessConvert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Convert/ProcessConvert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListenableFutureTask.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE.jar!/org/springframework/util/concurrent/ListenableFutureTask.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -193,60 +87,85 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="-74">
+              <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="erp.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="erp.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sql/erp.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="44" column="47" lean-forward="true" selection-start-line="12" selection-end-line="44" selection-end-column="47" />
+            <state relative-caret-position="317">
+              <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Enum/ProcessEnum.java">
+      <file leaf-file-name="AdminList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/AdminList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="205">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tasktable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Tasktable.java">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="54">
+              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Userinfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Userinfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="e#6121#6122#0" expanded="true" />
-                <element signature="e#6151#6152#0" expanded="true" />
-                <element signature="e#6197#6198#0" expanded="true" />
-                <element signature="e#6267#6268#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductorLoginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/ProductorLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/error.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/ProducerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/ProducerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -257,8 +176,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -268,7 +187,15 @@
       <find>updataStatusByTaskNo</find>
       <find>deleteTaskByTaskNo</find>
       <find>producer_pro</find>
+      <find>getDetailInfo</find>
+      <find>taskOperation</find>
+      <find>queryOrderByCustomerNameAndDate</find>
+      <find>trace_content</find>
+      <find>Producerinfo</find>
       <find>producer_process</find>
+      <find>jstl</find>
+      <find>list</find>
+      <find>loginPage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -277,10 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/Style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/jsp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/authority_management/success.jsp" />
@@ -289,26 +212,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/authority_management/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/jsp/top.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/attrJsP.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Model/Process.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Convert/ConvertUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/dao/TasktableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Convert/ProcessConvert.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/addTask.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/utils/QRCodeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/utils/GeneratorSqlMap.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/productor/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/jsp/menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/ProducerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/ProducerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/listTask.jsp" />
@@ -318,16 +235,26 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/TaskTableServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/process.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/addOrder.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/sql/erp.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/listOrder.jsp" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/http/ResponseEntity.class" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/ProductorLoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/TaskTableController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/addTask.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Enum/ProcessEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/TaskTableController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/addOrder.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/jsp/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/listOrder.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/queryTaskByTaskNo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/AdminList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Userinfo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql/erp.sql" />
       </list>
     </option>
   </component>
@@ -383,12 +310,14 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="169" />
-    <option name="y" value="109" />
-    <option name="width" value="904" />
-    <option name="height" value="487" />
+    <option name="x" value="264" />
+    <option name="y" value="28" />
+    <option name="width" value="1019" />
+    <option name="height" value="701" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -396,7 +325,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -446,6 +374,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Convert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -462,7 +399,32 @@
               <item name="erp2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
@@ -485,6 +447,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -495,6 +474,36 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
@@ -506,21 +515,26 @@
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="erp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="listTask&#9;PSI&#9;JAVA://org.springframework.util.concurrent.ListenableFutureTask&#10;producer_pro&#9;PSI&#9;JAVA://edu.uestc.ssmdemo.Controller.ProductorLoginController#producer_pro&#10;producer_log&#9;null&#9;null&#10;baidu.com&#9;null&#9;null&#10;home_page&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="hasPrivilege&#9;PSI&#9;JAVA://edu.uestc.ssmdemo.entity.Userinfo#hasPrivilege&#10;getDetailInfo&#9;PSI&#9;JAVA://edu.uestc.ssmdemo.Controller.TaskTableController#getDetailInfo&#10;listTask&#9;PSI&#9;JAVA://org.springframework.util.concurrent.ListenableFutureTask&#10;producer_pro&#9;PSI&#9;JAVA://edu.uestc.ssmdemo.Controller.ProductorLoginController#producer_pro&#10;producer_log&#9;null&#9;null&#10;baidu.com&#9;null&#9;null&#10;home_page&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -828,7 +842,9 @@
       <workItem from="1526954821573" duration="7032000" />
       <workItem from="1527039077386" duration="6424000" />
       <workItem from="1527299872395" duration="463000" />
-      <workItem from="1527733454124" duration="2216000" />
+      <workItem from="1527733454124" duration="7082000" />
+      <workItem from="1529630607216" duration="11878000" />
+      <workItem from="1529717812574" duration="8748000" />
     </task>
     <task id="LOCAL-00001" summary="v 1.001">
       <created>1524574756935</created>
@@ -893,11 +909,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525526663923</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改当先处理状态为中文">
+      <created>1527735819042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527735819042</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改日期查询bug">
+      <created>1527739883321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1527739883321</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128957000" />
+    <option name="totallyTimeSpent" value="154449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -923,7 +953,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27213115" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27070063" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295838" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4957265" weight="0.3280255" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -931,11 +961,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.491453" weight="0.3295838" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48504272" visible="true" weight="0.15923567" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48504272" visible="true" weight="0.32484075" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295838" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20863836" />
-      <window_info id="Web" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8891509" visible="true" weight="0.1852123" />
+      <window_info id="Web" order="2" sideWeight="0.11084906" side_tool="true" visible="true" weight="0.1852123" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1020,11 +1050,13 @@
     <MESSAGE value="v 1.007" />
     <MESSAGE value="修改了数据库表，taskTable&#10;基本实现了所有功能。" />
     <MESSAGE value="1.添加了新表producerinfo表，用于存放员工的登录权限；&#10;2.新增taskno的二维码打印；&#10;3.员工的登录和操作基本完成，可能会存在bug；" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.添加了新表producerinfo表，用于存放员工的登录权限；&#10;2.新增taskno的二维码打印；&#10;3.员工的登录和操作基本完成，可能会存在bug；" />
+    <MESSAGE value="修改当先处理状态为中文" />
+    <MESSAGE value="修改日期查询bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改日期查询bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1032,352 +1064,369 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/Common.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Model/OrderVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/page.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/new_019.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1339">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="132" column="108" selection-start-line="132" selection-start-column="100" selection-end-line="132" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/authority_management/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/addOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-332">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/addTask.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/attrJsP.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+        <state relative-caret-position="103">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/dao/OrdertableMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="675">
           <caret line="25" column="52" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Model/OrderVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrdertableMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="2106">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/listOrder.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="44" column="141" selection-start-line="44" selection-start-column="141" selection-end-line="44" selection-end-column="141" />
+        <state relative-caret-position="135">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Convert/ProcessConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Tasktable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="294" column="56" lean-forward="true" selection-start-line="294" selection-start-column="56" selection-end-line="294" selection-end-column="56" />
+          <folding>
+            <element signature="e#6121#6122#0" expanded="true" />
+            <element signature="e#6151#6152#0" expanded="true" />
+            <element signature="e#6197#6198#0" expanded="true" />
+            <element signature="e#6267#6268#0" expanded="true" />
+            <element signature="e#6381#6382#0" expanded="true" />
+            <element signature="e#6454#6455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/addTask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/attrJsP.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/addOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/TaskTableServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/listTask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/process.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4101">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Enum/ProcessEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="94" column="45" lean-forward="true" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1070">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProducerinfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrdertableMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/TaskTableServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TasktableMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/TaskTableService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="27">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Producerinfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/TaskTableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/page.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/regest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/top.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/orderManager.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="104" column="49" lean-forward="true" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/listOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/queryTaskByTaskNo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="75" column="72" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/dao/UserinfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/jsp/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="207" column="7" lean-forward="true" selection-start-line="207" selection-start-column="7" selection-end-line="207" selection-end-column="7" />
+          <folding>
+            <element signature="n#TD#0;n#TR#4;n#TBODY#0;n#TABLE#0;n#TD#1;n#TR#0;n#TBODY#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/authority_management/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="86" column="16" lean-forward="true" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Ordertable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/AdminList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/erp.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Userinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/impl/ProducerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        <state relative-caret-position="-135">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/service/ProducerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/ProductorLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/process.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/producer/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="64" column="67" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE.jar!/org/springframework/util/concurrent/ListenableFutureTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task/listTask.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/entity/Tasktable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#6121#6122#0" expanded="true" />
-            <element signature="e#6151#6152#0" expanded="true" />
-            <element signature="e#6197#6198#0" expanded="true" />
-            <element signature="e#6267#6268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Convert/ProcessConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Enum/ProcessEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding>
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uestc/ssmdemo/Controller/TaskTableController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/erp.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="44" column="47" lean-forward="true" selection-start-line="12" selection-end-line="44" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
         </state>
       </provider>
     </entry>

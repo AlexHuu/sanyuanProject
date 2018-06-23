@@ -36,16 +36,16 @@
     <tr align="center">
         <form action="queryorder" method="post">
             <td>
-                <input type="text" name="customerName" placeholder="请输入查询的客户名">
+                <input type="text" name="customerName" placeholder="请输入查询的客户名" value="<%= request.getParameter("customerName")==null ? "" : request.getParameter("customerName")%>">
             </td>
             <td>
-                <input type="date" id="from" name="startDate" placeholder="开始时间" value=<%=new SimpleDateFormat("yyyy-MM-dd").format(new Date())%>>
+                <input type="date" id="from" name="startDate" placeholder="开始时间" value="<%= request.getParameter("startDate")==null ? "" : request.getParameter("startDate")%>">
             </td>
             <td>
-                <input type="date" id="to" name="endDate" placeholder="结束时间" value=<%=new SimpleDateFormat("yyyy-MM-dd").format(new Date())%>>
+                <input type="date" id="to" name="endDate" placeholder="结束时间" value="<%= request.getParameter("endDate")==null ? "" : request.getParameter("endDate")%>">
             </td>
             <td>
-                <input type="submit">
+                <input type="submit" value="查询">
             </td>
         </form>
     </tr>
@@ -67,7 +67,9 @@
                 <th>重量</th>
                 <th>未完成匹数</th>
                 <th>品种备注</th>
-                <th>操作</th>
+                <c:if test="${sessionScope.user.hasPrivilege()}">
+                    <th>操作</th>
+                </c:if>
             </tr>
             </thead>
             <tbody>
@@ -81,20 +83,22 @@
                     <td>${order.weight}</td>
                     <td>${order.uncompleted}</td>
                     <td>${order.remarkoftype}</td>
-                    <td>
-                        <form action="taskOperation">
-                            <input  type="hidden" name="orderNo" value="${order.orderno}"/>
-                            <input type="submit" class="button" name="operation" value="排缸操作">
-                            <%--<button value="排缸操作" type="submit"></button>--%>
-                        </form>
-                        <%--<form action="taskUpdate">--%>
-                            <%--<input type="button" name="update" value="修改订单">--%>
-                        <%--</form>--%>
-                        <form action="deleteOrder">
-                            <input  type="hidden" name="orderNo" value="${order.orderno}"/>
-                            <input type="button" name="delete" value="删除订单">
-                        </form>
-                    </td>
+                    <c:if test="${sessionScope.user.hasPrivilege()}">
+                        <td>
+                            <form action="taskOperation">
+                                <input  type="hidden" name="orderNo" value="${order.orderno}"/>
+                                <input type="submit" class="button" name="operation" value="排缸操作">
+                                <%--<button value="排缸操作" type="submit"></button>--%>
+                            </form>
+                            <%--<form action="taskUpdate">--%>
+                                <%--<input type="button" name="update" value="修改订单">--%>
+                            <%--</form>--%>
+                            <form action="deleteOrder">
+                                <input  type="hidden" name="orderNo" value="${order.orderno}"/>
+                                <input type="button" name="delete" value="删除订单">
+                            </form>
+                        </td>
+                    </c:if>
 
                 </tr>
             </c:forEach>

@@ -43,7 +43,7 @@ public class UserServiceImpl implements UserService {
     }
 
     public List<Userinfo> findBynameOrPhone(Userinfo user) {
-        System.out.println(user.getUserName() + "  " + user.getUserPhoneno());
+        //System.out.println(user.getUserName() + "  " + user.getUserPhoneno());
         UserinfoExample example = new UserinfoExample();
         UserinfoExample.Criteria criteria = example.createCriteria();
         if (user.getUserName() != null && user.getUserName().length() > 0){
@@ -53,7 +53,7 @@ public class UserServiceImpl implements UserService {
             criteria.andUserPhonenoEqualTo(user.getUserPhoneno());
         }
         List<Userinfo> users = userinfoMapper.selectByExample(example);
-        System.out.println(users.size());
+        //System.out.println(users.size());
         return users;
     }
 
